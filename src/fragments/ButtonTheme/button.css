@@ -1,0 +1,14 @@
+.navButton{
+    height: 32px;
+    width: 32px;
+    border: 2px solid var(--darkPurple);
+    border-radius: 203px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navButton>img{
+    height: 15.9px;
+    width: 15.9px;
+}
