@@ -1,0 +1,20 @@
+.App {
+    background: #E6F1FF;
+    align-items: center;
+    display: flex;
+    font-family: "League Spartan", sans-serif;
+    height: 100vh;
+    justify-content: center;
+}
+
+:root {
+    --purple: #6E73B8;
+    --white: #ffffff;
+    --black: #000000;
+    --pinkish: #C96C7B;
+    --purpleish: #994CC3;
+    --blueish: #4876D6;
+    --redish: #D3423E;
+    --greenish: #0C969B;
+    --darkPurple: #717FB7;
+}
