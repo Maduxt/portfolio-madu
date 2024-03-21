@@ -1,0 +1,22 @@
+.greeting{
+    margin-top: 140px;
+    width: 1300px;
+    height: 416px;
+    background: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+.figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 350px;
+    height: 352px;
+    background: var(--linear);
+    box-shadow: var(--shadow);
+}
