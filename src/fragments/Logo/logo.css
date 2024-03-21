@@ -1,5 +1,4 @@
-.imglogo{
-    width: 200px;
+.imgLogo{
     display: flex;
     justify-content: center;
 }
