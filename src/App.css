@@ -1,13 +1,15 @@
 .App {
-    background: #E6F1FF;
+    background: var(--backGround);
     align-items: center;
     display: flex;
+    flex-direction: column;
     font-family: "League Spartan", sans-serif;
     height: 100vh;
     justify-content: center;
 }
 
 :root {
+    --backGround: #E6F1FF;
     --purple: #6E73B8;
     --white: #ffffff;
     --black: #000000;
@@ -17,4 +19,6 @@
     --redish: #D3423E;
     --greenish: #0C969B;
     --darkPurple: #717FB7;
+    --linear: linear-gradient(90deg, rgba(134,159,209,1) 0%, rgba(110,115,184,1) 35%, rgba(155,175,212,1) 100%);
+    --shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
