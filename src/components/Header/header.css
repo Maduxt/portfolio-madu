@@ -1,7 +1,7 @@
 .navbar {
     align-items: center;
     background: var(--linear);
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     height: 64px;
     justify-content: space-between;
