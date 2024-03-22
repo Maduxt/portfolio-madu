@@ -1,0 +1,10 @@
+.secondSection{
+    background: var(--backGround);
+    height: 336px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
