@@ -1,0 +1,10 @@
+.figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 352px;
+    background: var(--linear);
+    box-shadow: var(--shadow);
+}
