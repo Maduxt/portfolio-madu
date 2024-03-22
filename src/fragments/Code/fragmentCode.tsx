@@ -1,7 +1,5 @@
 import React from 'react'
 import './fragmentCode.css'
-import Codigo from './img/codigo.png'
-import Vizu from './img/Rectangle 49.png'
 import { 
     VscFiles,
     VscDebugAlt,
@@ -9,6 +7,7 @@ import {
     VscExtensions,
     VscError,
     VscSearch,
+    VscClose
 } from "react-icons/vsc";
 
 
@@ -18,12 +17,12 @@ interface fragment {
     readme: string;
 }
 
-const FragmentCode: React.FC<fragment> = ({ image, readme }) => {
+const FragmentCode: React.FC<fragment> = ({ image, readme, image2 }) => {
   return (
     <section className='sectionPage'>
             <h3 className='codeTitle'>Portfólio</h3>
         <div className='pages'>
-            <p className='page'>main.js {readme} </p>
+            <p className='page'>{readme} <VscClose/> </p>
         </div>
         <div className='main'>
             <div className='sidebar'>
@@ -35,8 +34,8 @@ const FragmentCode: React.FC<fragment> = ({ image, readme }) => {
                 </ul>
             </div>
             <div className='code'>
-                <img className='text' src={Codigo} alt="" />
-                <img className='rightBar' src={image} alt="Figurinha" />
+                <img className='text' src={image} alt="" />
+                <img className='rightBar' src={image2} alt="" />
             </div>
         </div>
         <div className='divFooter'>
