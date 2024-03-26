@@ -20,7 +20,9 @@ interface fragment {
 const FragmentCode: React.FC<fragment> = ({ image, readme, image2 }) => {
   return (
     <section className='sectionPage'>
-            <h3 className='codeTitle'>Portfólio</h3>
+        <div className='codeTitle'>
+            <h3>Portfólio</h3>
+        </div>
         <div className='pages'>
             <p className='page'>{readme} <VscClose/> </p>
         </div>
@@ -35,13 +37,19 @@ const FragmentCode: React.FC<fragment> = ({ image, readme, image2 }) => {
             </div>
             <div className='code'>
                 <img className='text' src={image} alt="" />
-                <img className='rightBar' src={image2} alt="" />
+                <div className='rightBar'>
+                    <img src={image2} alt="" />
+                </div>
             </div>
         </div>
         <div className='divFooter'>
+            <div className='divIcons'>
+                <span className='iconFooter'> <VscError /> </span>
+                <span> <VscWarning/> </span>
+            </div>
             <div className='divItems'>
-                <span> <VscError /> <VscWarning/>  </span>
-                <span> UTF-8 Javascript </span>
+                <span> UTF-8 </span>
+                <span>Javascript</span>
             </div>
         </div>
     </section>
