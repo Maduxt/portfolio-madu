@@ -20,7 +20,6 @@
 }
 
 .navegation {
-    color: #ffffff;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -39,4 +38,9 @@
     cursor: pointer;
     border-bottom: 3px solid var(--white);
     border-radius: 2px;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--white);
 }
