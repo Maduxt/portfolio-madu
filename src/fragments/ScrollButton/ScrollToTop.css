@@ -1,0 +1,26 @@
+.top-to-btm{
+    position: relative;
+  }
+  .icon-position{
+    position: fixed;
+    bottom: 350px;
+    right: 220px;
+    z-index: 20;
+  }
+  .icon-style{
+    background-color: var(--darkPurple);
+    border: 10px solid var(--darkPurple);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+  .icon-style:hover{
+    animation: none;
+    background: var(--lightPurple);
+    color: var(--white);
+    border: 10px solid var(--lightPurple);
+  }
