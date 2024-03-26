@@ -1,7 +1,7 @@
 import React from 'react'
 import './ThirdSection.css'
 import FragmentCode from '../../fragments/Code/fragmentCode.tsx'
-import Doc from '../../imgs/codig.png'
+import Doc from '../../imgs/Rectangle 49.png'
 import Readme from '../../imgs/readME.png'
 import MaduDev2 from '../../imgs/MaduDev2.png'
 import FragmentFigure from '../../fragments/Figure/fragmentFigure.tsx'
