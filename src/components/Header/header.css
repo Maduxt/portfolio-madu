@@ -10,6 +10,7 @@
     top: 16px;
     width: 1080px;
     box-shadow: var(--shadow);
+    z-index: 9;
 }
 
 .navRight{
