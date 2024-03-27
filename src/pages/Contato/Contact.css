@@ -1,0 +1,12 @@
+.contact{
+    margin: 180px 0px 120px 0px;
+    /* width: 1080px; */
+    height: 496px;
+    width: 420px;
+    background: var(--white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
