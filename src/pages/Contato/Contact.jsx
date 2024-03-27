@@ -1,8 +1,12 @@
 import React from 'react'
+import './Contact.css'
+import Input from '../../fragments/Input/Input'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section className='contact'>
+      <Input />
+    </section>
   )
 }
 
