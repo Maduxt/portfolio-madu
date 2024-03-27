@@ -3,6 +3,7 @@ import './SecondSection.css'
 import Card from '../Card/Card.tsx';
 import ProjectCard from '../ProjectCard/ProjectCard.tsx'
 import Dashboard from '../../imgs/capaProjeto.png'
+import Portfolio from '../../imgs/capaPortfolio.png'
 import Cat from '../../imgs/Cat.png'
 
 const SecondSection = () => {
@@ -16,10 +17,10 @@ const SecondSection = () => {
             />
         </div>
         <div>
-            <Card
-            capa={Cat} 
-            title={'Em breve'}
-            description={'Aqui ficarão as informações as resumo.Tente preencher tudo e as sempre  termine com “...”'}
+            <ProjectCard 
+                capa={Portfolio} 
+                title={'Portfólio - Maduxt'}
+                description={'Portfólio de Maduxt (eu), desenvolvido com React, Typescript, NodeJS e outras tecnologias. Design criado por Carlos...'}
             />
 
         </div>
