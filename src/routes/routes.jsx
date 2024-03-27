@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom"
 import Root from "../components/Root/Root"
 import Inicio from "../pages/Inicio/inicio"
 import Sobre from "../pages/Sobre/Sobre"
-import Projects from "../pages/Projetos/Projects"
+import Projects from "../pages/Project/Projects"
 import Contact from "../pages/Contato/Contact"
 import NotFound from "../pages/NotFound/NotFound"
 
