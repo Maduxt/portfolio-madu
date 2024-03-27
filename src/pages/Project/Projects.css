@@ -1,0 +1,28 @@
+.project{
+    width: 1144px;
+    height: 800px;
+    margin: 220px 0px 160px 0px;
+}
+
+.titleProject{
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 64px;
+    color: var(--purple);
+}
+
+.cardsProject{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.changePages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple);
+    margin-top: -25px;
+}
