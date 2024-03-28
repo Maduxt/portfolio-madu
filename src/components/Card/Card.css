@@ -46,3 +46,22 @@
     background: var(--lightPurple);
     transition: 0.5s;
 }
+
+@media screen and (max-width: 1200px) {
+    .card{
+        width: 80%;
+    }
+
+    .imageCard{
+        width: 90%;
+    }
+
+    .cardParagraph{
+        margin: 0px 10px 0px 10px;
+    }
+
+    .buttonCard{
+        width: 90%;
+    }
+    
+}

@@ -8,3 +8,10 @@
     align-items: center;
     margin-top: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+    .secondSection{
+        width: 90%;
+        margin-left: 55px;
+    }
+}

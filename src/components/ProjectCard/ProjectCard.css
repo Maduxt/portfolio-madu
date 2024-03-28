@@ -37,3 +37,23 @@
 .buttonCardProject:hover{
     background: var(--lightPurple);
 }
+
+
+@media screen and (max-width: 1200px) {
+    .cardProject{
+        width: 80%;
+    }
+
+    .imageCardProject{
+        width: 90%;
+    }
+    
+    .paragraphCardProject{
+        margin: 0px 10px 0px 10px;
+    }
+
+    .buttonCardProject{
+        width: 90%;
+    }
+    
+}

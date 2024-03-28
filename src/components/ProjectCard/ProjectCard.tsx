@@ -12,7 +12,7 @@ const ProjectCard: React.FC<component> = ({ capa, title, description }) => {
     <div className='cardProject'>
         <img className='imageCardProject' src={capa} alt="Capa do projeto" />
         <h3 className='titleCardProject'> {title} </h3>
-        <p>{description}</p>
+        <p className='paragraphCardProject'>{description}</p>
         <button className='buttonCardProject'>Acessar</button>
     </div>
   )

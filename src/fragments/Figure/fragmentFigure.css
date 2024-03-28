@@ -8,3 +8,13 @@
     background: var(--linear);
     box-shadow: var(--shadow);
 }
+
+@media screen and (max-width: 1200px) {
+    .figure{
+        width: 30%;
+    }
+
+    .figure>img{
+        width: 80%;
+    }
+}

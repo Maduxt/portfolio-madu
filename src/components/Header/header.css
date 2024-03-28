@@ -44,3 +44,9 @@
     text-decoration: none;
     color: var(--white);
 }
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        width: 80%;
+    }
+}

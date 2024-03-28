@@ -118,3 +118,22 @@
     font-size: 12px;
     margin: 0px 15px 0px 0px;
 }
+
+@media screen and (max-width: 1200px) {
+    .sectionPage{
+        width: 60%;
+    }
+
+    .text{
+        width: 88%;
+        margin: -20px -10px 0px -18px;
+    }
+
+    .rightBar{
+        width: 50%;
+    }
+    .rightBar>img{
+        width: 100%;
+        margin: 10px 0px 0px 1px;
+    }
+}
