@@ -47,9 +47,9 @@
     transition: 0.5s;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
     .card{
-        width: 80%;
+        width: 100%;
     }
 
     .imageCard{
@@ -64,4 +64,10 @@
         width: 90%;
     }
     
+}
+
+@media screen and (max-width: 960px) {
+    .card{
+        width: 100%;
+    }
 }

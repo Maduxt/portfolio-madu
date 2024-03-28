@@ -9,14 +9,14 @@ import Cat from '../../imgs/Cat.png'
 const SecondSection = () => {
   return (
     <section className='secondSection'>
-        <div>
+        <div className='item'>
             <ProjectCard
                 capa={Dashboard} 
                 title={'Dashboard - Monye'}
                 description={'Um lindo e moderno Dashboard, pensado e desenvolido para empresas usando as tecnologias mais recentes do mercado...'}
             />
         </div>
-        <div>
+        <div className='item'>
             <ProjectCard 
                 capa={Portfolio} 
                 title={'Portfólio - Maduxt'}
@@ -24,14 +24,14 @@ const SecondSection = () => {
             />
 
         </div>
-        <div>
+        <div className='item'>
         <Card
              capa={Cat} 
              title={'Em breve'}
              description={'Aqui ficarão as informações as resumo.Tente preencher tudo e as sempre  termine com “...”'}
             />
         </div>
-        <div>
+        <div className='item'>
         <Card
             capa={Cat} 
             title={'Em breve'}

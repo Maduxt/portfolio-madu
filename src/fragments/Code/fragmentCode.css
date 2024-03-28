@@ -119,14 +119,15 @@
     margin: 0px 15px 0px 0px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .sectionPage{
         width: 60%;
     }
 
     .text{
-        width: 88%;
-        margin: -20px -10px 0px -18px;
+        width: 80%;
+        height: 70%;
+        margin-right: 5px;
     }
 
     .rightBar{
@@ -135,5 +136,13 @@
     .rightBar>img{
         width: 100%;
         margin: 10px 0px 0px 1px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .text{
+        width: 80%;
+        height: 70%;
+        margin-right: 5px;
     }
 }

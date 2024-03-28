@@ -39,16 +39,16 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
     .cardProject{
-        width: 80%;
+        width: 100%;
     }
 
     .imageCardProject{
         width: 90%;
     }
-    
-    .paragraphCardProject{
+
+    .cardParagraphProject{
         margin: 0px 10px 0px 10px;
     }
 
@@ -56,4 +56,10 @@
         width: 90%;
     }
     
+}
+
+@media screen and (max-width: 960px) {
+    .cardProject{
+        width: 100%;
+    }
 }
