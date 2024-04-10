@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import React, {useState} from 'react'
 import './header.css'
 import Logo from '../../fragments/Logo/logo'
@@ -6,7 +6,7 @@ import Button from '../../fragments/ButtonTheme/button'
 import {motion} from 'framer-motion'
 import {HiBars3} from 'react-icons/hi2'
 import { HeaderMenu } from '../Data/Data'
-import { PiSignOutLight } from "react-icons/pi"
+// import { PiSignOutLight } from "react-icons/pi"
 
 const Header = () => {
   const [selected, setSelected] = useState(0)
@@ -25,7 +25,7 @@ const Header = () => {
     
     <motion.div className='navbar'
     variants={sidebarVariants}
-    animate={window.innerWidth<=480?`${expanded}`:''}
+    animate={window.innerWidth<=630?`${expanded}`:''}
     >
 
     <div className='logo'>
@@ -47,10 +47,6 @@ const Header = () => {
               })}
 
           <Button />
-
-          <div className="menuItem">
-                <PiSignOutLight />
-            </div>
 
         </div>
 
