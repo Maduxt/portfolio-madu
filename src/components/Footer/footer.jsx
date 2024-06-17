@@ -12,7 +12,6 @@ const Footer = () => {
         <Logo />
             <ul className='listFooter'>
                 <li><Link className='link' to='/'> INICIO </Link></li>
-                <li><Link className='link' to='/sobre'> SOBRE </Link></li>
                 <li><Link className='link' to='/projetos'> PROJETOS </Link></li>
                 <li><Link className='link' to='/contato'> CONTATO </Link></li>
             </ul>
